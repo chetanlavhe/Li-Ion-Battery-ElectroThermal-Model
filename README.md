@@ -1,5 +1,26 @@
 # Physics-Based Electro-Thermal Modeling of a Lithium-Ion Battery Cell
 
+> **Python-based simulation of CC-CV fast charging, battery thermal behavior, and cooling requirements of a lithium-ion cell.**
+
+## Project Highlights
+
+| Parameter | Result |
+|---|---:|
+| Charging rates studied | 0.5C, 1.5C, 2.5C |
+| Maximum temperature at 2.5C | **45.05 °C** |
+| Charging time at 2.5C | **29.95 min** |
+| Charging-time reduction vs 0.5C | **72.60%** |
+| Model error at 2.5C vs literature | **0.56%** |
+| Cooling coefficient studied | 5–100 W/m²K |
+
+### Key Engineering Insight
+
+Increasing the charging rate significantly reduces charging time but increases the thermal load on the cell. At 2.5C, the model predicts a maximum temperature of **45.05 °C**, compared with **27.85 °C at 0.5C**.
+
+The cooling analysis shows that increasing the convective heat-transfer coefficient can significantly reduce the maximum cell temperature, demonstrating the importance of thermal management during fast charging.
+
+---
+
 ## Overview
 
 This project develops a Python-based physics-informed electro-thermal model of a lithium-ion battery cell to study the trade-off between charging speed and thermal behavior during CC-CV charging.
@@ -122,6 +143,30 @@ The analysis demonstrates that increasing the heat-transfer coefficient substant
 
 This provides a simple engineering framework for investigating the thermal-management requirement associated with fast charging.
 
+## Skills Demonstrated
+
+### Battery Engineering
+- CC-CV charging analysis
+- C-rate analysis
+- SOC modeling
+- Battery thermal management
+- Heat-generation analysis
+- Fast-charging analysis
+
+### Computational Engineering
+- Physics-based modeling
+- Numerical simulation
+- Parametric analysis
+- Model validation against literature
+- Cooling-system analysis
+
+### Programming
+- Python
+- NumPy
+- SciPy
+- Matplotlib
+- Pandas
+
 ---
 
 ## Project Workflow
@@ -146,3 +191,5 @@ Temperature & Charging-Time Analysis
 Cooling Optimization
         ↓
 Literature Comparison
+---
+
