@@ -192,4 +192,23 @@ Cooling Optimization
         ↓
 Literature Comparison
 ---
+## References
 
+1. D. M. Bernardi, E. M. Pawlikowski, and J. Newman,
+   "A General Energy Balance for Battery Systems,"
+   Journal of The Electrochemical Society, 132(1), 5–12, 1985.
+   DOI: https://doi.org/10.1149/1.2113792
+
+2. G. Joshi, L. N. Valluru, and A. P. Khade,
+   "Two RC model and parameter estimation of lithium-ion battery,"
+   Indonesian Journal of Electrical Engineering and Computer Science,
+   Vol. 37, No. 2, pp. 730–739.
+   DOI: https://doi.org/10.11591/ijeecs.v37.i2.pp730-739
+
+3. "A Novel Electro-Thermal Model of Lithium-Ion Batteries
+   Using Power as the Input,"
+   Electronics, 10(22), 2753, 2021.
+   https://doi.org/10.3390/electronics10222753
+
+4. Literature sources used for the Panasonic NCR18650PF
+   electrical and thermal characterization parameters.
